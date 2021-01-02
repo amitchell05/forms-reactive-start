@@ -12,6 +12,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.signupForm = new FormGroup({
+      // Note: you can wrap keys in single quotes to protect them
       username: new FormControl(null),
       email: new FormControl(null),
       gender: new FormControl('female'),
