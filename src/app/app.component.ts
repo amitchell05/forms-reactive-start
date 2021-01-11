@@ -14,7 +14,7 @@ import { Observable } from 'rxjs';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
-  genders: string[] = ['male', 'female'];
+  genders: string[] = ['man', 'woman', 'gender non-conforming'];
   signupForm: FormGroup;
   forbiddenUsernames: string[] = ['Chris', 'Anna'];
 
