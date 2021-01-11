@@ -34,7 +34,7 @@ export class AppComponent implements OnInit {
           this.forbiddenEmails
         ),
       }),
-      gender: new FormControl('female'),
+      gender: new FormControl('woman'),
       hobbies: new FormArray([]),
     });
     // this.signupForm.valueChanges.subscribe((value) => console.log(value));
