@@ -67,6 +67,7 @@ export class AppComponent implements OnInit {
     if (this.forbiddenUsernames.indexOf(control.value) !== -1) {
       return { nameIsForbidden: true };
     }
+    return null;
   }
 
   forbiddenEmails(control: FormControl): Promise<any> | Observable<any> {
